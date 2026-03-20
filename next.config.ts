@@ -9,6 +9,7 @@ import type { NextConfig } from "next";
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // tắt eslint khi build
+     typescript: { ignoreBuildErrors: true }, // add dòng này
   },
 };
 

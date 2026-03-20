@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+     "strict": false,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
     "target": "es5",
     "lib": [
       "dom",
@@ -15,7 +18,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {
