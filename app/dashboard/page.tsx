@@ -366,7 +366,7 @@ export default function ExpensePage() {
         </span>
         {!supabase && (
           <span style={{ marginLeft: "auto", fontSize: 11, background: "#FEF9C3", color: "#92400E", borderRadius: 20, padding: "3px 10px" }}>
-            Chế độ demo — chưa kết nối Supabase
+            Chế độ demo — 
           </span>
         )}
       </div>
