@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 /**
  * CHI PHÍ THÔNG MINH — Expense Dashboard
