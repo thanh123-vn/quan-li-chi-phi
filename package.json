@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev ",
-    "build": "next build",
+     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint"
   },
@@ -14,10 +14,10 @@
     "@supabase/supabase-js": "^2.99.1",
     "chart.js": "^4.5.1",
     "date-fns": "^4.1.0",
-    "next": "^16.2.0",
+    "next": "15.2.0",
     "openai": "^6.29.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "recharts": "^3.8.0",
     "tesseract.js": "^4.1.4"
   },
