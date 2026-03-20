@@ -8,8 +8,10 @@ import type { NextConfig } from "next";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // tắt eslint khi build
-     typescript: { ignoreBuildErrors: true }, // add dòng này
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
